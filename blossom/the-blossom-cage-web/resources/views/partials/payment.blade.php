@@ -1,0 +1,32 @@
+<div id="toshow" style="float: right" class="PT_express_checkout" ></div>
+<script src="https://www.paytabs.com/express/v4/paytabs-express-checkout.js"
+        id="paytabs-express-checkout"
+        data-secret-key="{{ env('PAYTAB_SECRET_KEY') }}"
+        data-merchant-id="{{env('MERCHANT_ID')}}"
+        data-url-redirect="{{ env('BASEURL') }}<?php echo Session::get('locale') ?>/orders/success",
+        data-amount="<?php echo $response['data']['total_amount']; ?>"
+        data-currency="SAR"
+        data-title="Bill for order id <?php echo $response['data']['order_id']; ?>"
+        data-product-names="Product 1, 2 3"
+        data-order-id="<?php echo $response['data']['order_id']; ?>"
+        data-customer-phone-number="<?php echo $response['nationNumber']; ?>"
+        data-customer-email-address="<?php echo $response['data']['recipient_email']; ?>"
+        data-customer-country-code="<?php echo $response['countryCode']; ?>"
+        data-ui-element-id="toshow"
+        data-billing-full-address="<?php echo $response['data']['shipping_address']; ?>"
+        data-billing-city="<?php echo $response['data']['shipping_city']; ?>"
+        data-billing-state="<?php echo $response['data']['shipping_state']; ?>"
+        data-billing-country="<?php echo $response['country_iso'] ?>"
+        data-billing-postal-code="<?php echo $response['data']['shipping_zipcode']; ?>"
+        data-shipping-full-address="<?php echo $response['data']['shipping_address']; ?>"
+        data-shipping-city="<?php echo $response['data']['shipping_city']; ?>"
+        data-shipping-state="<?php echo $response['data']['shipping_state']; ?>"
+        data-shipping-country="<?php echo $response['country_iso'] ?>"
+        data-shipping-postal-code="<?php echo $response['data']['shipping_zipcode']; ?>"
+        data-checkout-button-img-url="<?php echo Session::get('locale') == 'ar' ? 'https://www.maggsha.com/public/images/checkout-ar.png' : 'https://www.maggsha.com/public/images/checkout.png'?>"
+        data-checkout-button-width = "200px"
+        data-checkout-button-height = "47px"
+        data-language="<?php echo Session::get('locale')?>"
+        data-redirect-on-reject=true
+>
+</script>

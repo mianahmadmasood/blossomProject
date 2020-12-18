@@ -1,0 +1,10 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [{
+            "appID": "BBKD43KFCM.com.maggsha.chbib",
+            "paths": ["/en/orders/show", "/ar/orders/show", "/en/orders/show/*", "/ar/orders/show/*"]
+            }
+        ]
+    }
+}

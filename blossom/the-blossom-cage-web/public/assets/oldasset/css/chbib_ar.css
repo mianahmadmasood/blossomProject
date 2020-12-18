@@ -1,0 +1,369 @@
+@import url("../css/chbib.css");
+@font-face {font-family: 'Droid Arabic Kufi';
+    src: url('../fonts/DroidArabicKufi-Bold.eot');
+    src: url('../fonts/DroidArabicKufi-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DroidArabicKufi-Bold.woff2') format('woff2'),
+    url('../fonts/DroidArabicKufi-Bold.woff') format('woff'),
+    url('../fonts/DroidArabicKufi-Bold.ttf') format('truetype'),
+    url('../fonts/DroidArabicKufi-Bold.svg#DroidArabicKufi-Bold') format('svg');font-weight: bold;font-style: normal;}
+@font-face {font-family: 'Droid Arabic Kufi';src: url('../fonts/DroidArabicKufi.eot');
+    src: url('../fonts/DroidArabicKufi.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DroidArabicKufi.woff2') format('woff2'),
+    url('../fonts/DroidArabicKufi.woff') format('woff'),
+    url('../fonts/DroidArabicKufi.ttf') format('truetype'),
+    url('../fonts/DroidArabicKufi.svg#DroidArabicKufi') format('svg');font-weight: normal;font-style: normal;}
+@font-face {font-family: 'Droid Arabic Naskh';
+    src: url('../fonts/DroidArabicNaskh-Bold.eot');
+    src: url('../fonts/DroidArabicNaskh-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DroidArabicNaskh-Bold.woff2') format('woff2'),
+    url('../fonts/DroidArabicNaskh-Bold.woff') format('woff'),
+    url('../fonts/DroidArabicNaskh-Bold.ttf') format('truetype'),
+    url('../fonts/DroidArabicNaskh-Bold.svg#DroidArabicNaskh-Bold') format('svg');font-weight: bold;font-style: normal;}
+@font-face {font-family: 'Droid Arabic Naskh';
+    src: url('../fonts/DroidArabicNaskh.eot');
+    src: url('../fonts/DroidArabicNaskh.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/DroidArabicNaskh.woff2') format('woff2'),
+    url('../fonts/DroidArabicNaskh.woff') format('woff'),
+    url('../fonts/DroidArabicNaskh.ttf') format('truetype'),
+    url('../fonts/DroidArabicNaskh.svg#DroidArabicNaskh') format('svg');font-weight: normal;font-style: normal;}
+body, div, span, p, label {font-family: 'Droid Arabic Naskh'!important;font-weight: normal!important; direction: rtl!important;}
+a {font-family: 'Droid Arabic Naskh'!important;font-weight: normal!important; direction: rtl!important;}
+h1, h2, h3, h4, h5, h6 {font-family: 'Droid Arabic Naskh'!important; font-weight: bold;letter-spacing: 0 !important; }
+
+/**************** Chbaib Arabic Styling *******************/
+.font-2 {font-family: 'Droid Arabic Naskh';}
+.featuredLists, .brandList a, .cTop_category, .cTop_brands h4 img, .cTop_category h4 img, .cfList h4, .cfList p, .cClft a, .techColordiv .item, .techColordiv label, .fot_col_1, .cClft, .fot_col_2, .cRights a, .cRights p, .fot_col_2 a, .cfList a, .aboutbanner p, .aboutBox span, .aboutBox a, .pdet_lft, .ptabz .tab-pane p, .pdet_rit span small, .BagAdded, .favAdded, .pdet_rit span, .leftPromo, .profileInfo p, .cFields, .form-group2, .navbar-cart-product .navbar-cart-product-link, .cartBox .w100 a, .order-summary-item p, .Order_detail p, .productList p, .favorited, .priceBox strong, .MenuBox p, .saleLists, .priceBox
+{float:right!important;}
+
+.featuredLists a, .filteredLists h2, .filteredLists h3, .filteredLists p, .filteredLists a, .saleListIn2, .cTop_category h4, .cTop_brands h4, .cIList2 h5, .cIList a, .saleLists a, .saleListIn, .saleLists.blanks, .txtRight, .cfList p, .cClft p, .cClft h5, .cfList h4, .cFields label, .fot_col_2 a, .ritePromo p, .fot_col_1, .leftPromo, .fot_col_2, .aboutbanner .hero-heading, .aboutbanner p, .aboutBox span, .ptabz .tab-pane p, .pdet_rit h3, .pdet_rit p, .pdet_rit span, .eHead h3, .eHead p, .profileInfo p, .profile_nav ul li a, .OrdersBox table, .OrdersBox table tr, .OrdersBox table td, .OrdersBox table th, .cart-header, .cart-title, .cProduct_lft h3, .cProduct_lft .card-header, .cProduct_rite .pageStatus, .navbar-cart-product .navbar-cart-product-link, .navbar-cart-total p, .Order_Summary h6, .Order_Summary p, .order-summary-item, .order-summary-item p, .box1 h6, .box2 h6, .oInfo strong, .Order_detail span, .Order_detail p, .ddetail h4, .productList h4, .productList p, .favorited, .priceBox strong, .MenuBox p, .priceBox
+{text-align: right!important;}
+/*.col-fot-total{float:right!important;text-align: right!important;}*/
+
+
+.cTop_brands, .cRights .float-right, .pdet_rit, .ritePromo, .cCrit, .close, .navbar-cart-total span, .order-summary-item span, .order-summary-item strong, .box1 .def-btn
+{float:left!important;}
+
+
+.fot_col_3
+{text-align: left!important;}
+
+.techColor {float: right!important;}
+.techColor i {float:right!important;;}
+
+.headlogin a, .fot_col_2 a, .btn-primary, .cFields label, .cart-header, .hero-heading, .cartBox .w100 a, .checkoutbtn .btn-link, .checkoutbtn .btn-outline-dark
+{letter-spacing: 0!important;}
+
+.alert-danger , .alert-success , .alert-warning {
+    text-align: right;
+    direction: rtl!important;
+}
+.RightICO {right: inherit;left: 0;transform: rotate(180deg);}
+.LeftICO {left: inherit;right: 0;transform: rotate(180deg);}
+.saleLists strong {right:inherit; left:11px;}
+.aboutBox2{ line-height: 30px!important;}
+.pdet_lft {margin:0 0 0 52px;}
+.aboutBox img {float:left}
+.featuredLists {margin: 0 0 1% 1%;width:19%;}
+.wishlist-message{padding-top: 20px; padding-left: 20px; float: right; text-align: right;}
+.saleListIn {padding: 6px 20px 10px 45px;}
+.saleLists button, .featuredLists button {right:inherit; left:10px;}
+.cFields label, .Reset, .pageStatus a, .cartBox {font-size:14px;}
+.subpagez .itemlistz2 {
+    float: left;
+    width: 100%;
+    padding: 0 15px;
+    direction: rtl;
+    text-align: right;
+}
+.owlBox1 #owl-1 { border:none!important;}
+.techColordiv label {margin:3px 4px 0 0;}
+.accessories a {float:right!important; margin:0 0 20px 5px!important;}
+.techColor .owl-carousel .owl-item {float:right!important;}
+.techColordiv {float:left !important;width:100% !important;}
+.ptabz .tab-pane p
+{width:100%!important;}
+.checkbox-row label.css-label, .paymenMethods, .paymenMethods2{float:right!important;}
+
+.rdcheck input[type=checkbox].css-checkbox {display: none;}
+.alert-danger , .alert-success , .alert-warning {text-align: right;direction: rtl!important;}
+.cTop_brands h4 img, .cTop_category h4 img {margin:0 0 0 5px;}
+
+.aaCheck {right: 0px;top: 0px; left:inherit;}
+.cfList h4 { padding: 0 0 0 15px;}
+.cfList h4 img {left: 2px; right: inherit;}
+.ritePromo p {line-height:inherit;}
+
+.cClft a {margin:9px 3px 0 14px!important;}
+.applyReset {padding:0;}
+.headMid ul li.active a {padding-bottom: 5px;}
+.headMid ul li a:hover {padding-bottom: 5px;}
+.headRit a img {margin-top: -3px;}
+.cartBox img, .headfav img, .headsearch img {float: left;}
+
+.filter-option-inner-inner {font-size: 12px;font-weight: 700!important;color: #627A76!important;font-family: 'Montserrat', sans-serif!important;}
+
+.prettydropdown > ul > li {text-align:right!important;}
+.prettydropdown.arrow > ul > li.selected:before, .prettydropdown.arrow > ul > li.selected:after {right:inherit; left:8px!important;}
+
+.cart-item h6 {text-align: right;}
+
+.aboutUs-design h4, .aboutUs-design p, .aboutUs-design ul { text-align: right !important;}
+.aboutUs-design ul li {float: right !important; }
+
+
+
+
+.bootstrap-select .dropdown-menu {left:inherit!important;right:0!important;}
+.bootstrap-select .dropdown-menu li {text-align: right!important;}
+.fot_col_2 a {font-size: 13px;}
+.cProduct_lft .card-header { padding:6px 5px 6px 15px;}
+.accordion.indicator-plus-before.round-indicator .card-header:before {left: 0; right: inherit!important;}
+.dealsOuter  .owl-carousel .owl-item {float:right;}
+
+#owl-1 { direction: ltr!important; border:1px solid #f3f1ef;}
+#owl-2 { direction: ltr!important; }
+.owl-carousel, .owl-carousel .owl-stage-outer {direction: ltr!important;}
+/*#owl--1 .owl-carousel {direction:ltr!important}*/
+.dealsOuter .owl-item{margin:0 0 0 5px!important}
+#flashDeals .owl-item {margin: 0 0 0 8px!important; float: right!important;}
+.topCategoriez .owl-item {margin: 0 0 0 8px!important; float: right!important;}
+
+.brandz {float: right!important;}
+.brandz:nth-child(2n) {float: left !important;}
+.cIList{float: right!important;margin-right: 0px;margin-left: 8px;}
+
+.pdet_rit h3 {font-size: 30px; line-height: 50px;}
+
+
+.pfile .box {left: inherit!important; right:20px;}
+.profile_nav ul li a {padding: 8px 45px 8px 10px;}
+.profile_nav ul li a i { left:inherit; right:15px;}
+.RIco {left: -15px;right: inherit!important;transform: rotate(180deg); transition: none!important;}
+
+.profile_nav ul li a:hover .RIco {opacity: 1; left: 15px!important; transition: none!important;}
+.box1 .cFields .bootstrap-select { direction:ltr!important;}
+.cart-title {margin-left: inherit!important; margin-right: 1rem;}
+.btn-primary { color: #fff!important;}
+.BagAdded { letter-spacing: 0; margin: 0 0 0 10px;}
+.wishItems .col-3 a {float:right!important;}
+.top-user-area-avatar img {margin: 0 0 0 10px!important;}
+.top-user-area-avatar i { margin:0 3px 0 3px;}
+.cProduct_lft {float:right; margin:0 0 0 3%;}
+.FilterBox {padding:0 0 0 22px;}
+.searchBox a {right:inherit!important; left: 0;}
+.checkbox-row input[type=checkbox].css-checkbox + label.css-label { font-size: 14px; padding-left: inherit!important; padding-right:30px;float: right;text-align: right; background-position: 99% 0;}
+.checkbox-row input[type=checkbox].css-checkbox:checked + label.css-label {background-position: 99% -13px;}
+.checkbox-row {width:100%!important;float: right;}
+
+.rdcheck input[type=checkbox].css-checkbox + label.css-label, .rdcheck input[type=checkbox].css-checkbox + label.css-label.clr {float:right;background-position: 0 0;padding-right:inherit; padding-left:19px; text-align: right;}
+.rdcheck input[type=checkbox].css-checkbox:checked + label.css-label, .rdcheck input[type=checkbox].css-checkbox + label.css-label.chk {background-position: 0 -14px;}
+
+
+.checkboxfilter label {padding:0 0 0 19px;background-position: 0 0; text-align: right;}
+.checkboxfilter label.checkboxfilterchecked {background-position: 0% -14px !important;}
+
+
+.cProduct_lft .card-body {padding: 13px 20px 7px 0px;}
+.cProduct_lft .card-header {padding: 6px 15px 6px 5px;}
+.cProduct_lft .card-header .linered {left:inherit;right:0;}
+
+
+.search-area .search-area-button {right:inherit!important; left: 0!important;}
+
+.navbar-cart-product-wrapper .pl-3 {padding:0 1rem 0 0!important; text-align: right;}
+
+.profile_drop ul li a { padding: 5px 35px 5px 10px; text-align: right; font-size: 13px!important;}
+.profile_drop ul li a i { left: inherit!important; right:7px!important;}
+.cartBox .w100 a i { transform: rotate(180deg)!important; -webkit-transform: rotate(180deg)!important; margin: 0 5px;}
+.order-summary {float: left;width:100%; margin: 0;padding: 0;}
+
+#signin .col-6 { text-align: left!important;}
+#signin .col-6 .custom-checkbox {padding: 0 1.5rem 0 0!important; text-align: right!important;}
+#signin .custom-control-label::before { left: inherit!important; right:0;}
+#signin .custom-control-label::after { left: inherit!important; right:0;}
+
+.itemSpecDtailStrong {float: right;width: 20%;text-align: right;}
+.itemSpecDtailSpec {float: right;width: 80%;text-align: right;}
+
+.Order_detail .ddlist {float:right;}
+.customer-profile {direction:ltr!important}
+.Order_detail p {padding: 0  0 0 15px;}
+
+.checkoutbtn .btn-link i {transform: rotate(180deg)!important;margin:0 0 0 5px;}
+.checkoutbtn .btn-outline-dark i { transform: rotate(180deg)!important; margin:0 5px 0 0;}
+.no-orders{text-align: right; }
+.box1 .checkbx {margin:0!important;}
+.box1 .checkbox-row { padding:0 10px 0;}
+.box1 .def-btn { margin: 0 10px 0;}
+
+.navbar-cart-product .pl-3 {padding: 0 1rem!important;}
+.Order_detail p { padding: 0 15px 0;}
+.pageStatus { margin: 0px 0 10px 0!important; text-align: center;width: 100%!important;}
+.pageStatus.mb-3 { margin: 0px 0 10px 0!important; text-align: center!important;width: 100%!important;}
+.brandList a {max-width: 50px;}
+.priceMinMax {float:right!important;width:auto!important;}
+.applyReset a {float:right;margin:0 10px 10px;}
+.applyReset {padding:0 0 30px;}
+
+.cartBox .ccounter { line-height: 20px!important;}
+.fa, .fas {
+    font-weight: 900!important;
+}
+.aboutBox .callNow { float: right;}
+.fa, .far, .fas {
+    font-family: "Font Awesome 5 Free"!important;
+}
+/*
+.cfList a { margin:0 0 25px 20px}
+.cfList a:nth-child(6n) {margin: 0 0 25px 0}
+*/
+
+.owl-featured .owl-prev {left:inherit; right:-8px;}
+.owl-featured .owl-next { left: -8px;right: inherit;}
+.owl-featured .owl-prev span {padding:2px 0 0 5px}
+.owl-featured .owl-next span {padding:2px 0 0 0px;}
+
+.cProduct_rite .cf1 {float:left!important}
+.dropdownforfilter {left:0!important; right:inherit!important}
+.carousel_v2 .owl-nav button span { direction:ltr!important;padding:2px 11px 0 0}
+.serviceBox2 h2 { height: 56px;}
+.salePrice span.price { margin: 0 10px;}
+.pAdded { margin: 0 0 20px;}
+
+#owl-featured .owl-prev span {line-height: 34px!important;transform: rotate(180deg)!important;}
+#owl-featured .owl-next span {line-height: 34px!important; transform: rotate(180deg)!important;}
+.cfList .h_list .addToFav {float: left!important;}
+
+.slider.slider-horizontal {width: 90%!important;float: left!important;}
+.productList h4 { line-height:21px;}
+
+.pdet_rit .pageStatus { text-align: right!important;}
+.close2 { right: inherit!important; left: 0!important;}
+.cart-header { font-weight: bold!important;}
+
+.MenuBox .hamburger {float: left!important;}
+.fixmenu li a {padding: 15px 45px 15px 10px!important;}
+
+.intl-tel-input input { padding:8px 47px 5px 10px;}
+.intl-tel-input .flag-dropdown {right:0; left: inherit;width:40px}
+.intl-tel-input .flag-dropdown .selected-flag { padding:6px 6px 6px 16px!important; float: right; }
+.intl-tel-input .flag-dropdown .selected-flag .down-arrow { left: -20px!important;}
+.navbar-cart-product .navbar-cart-product-link { padding: 0 0 0 10px!important;}
+
+.box1 .cFields .bootstrap-select button { padding: 7px 15px 7px 25px;}
+.filter-option-inner-inner { text-align: right;}
+.box1 .bootstrap-select>.dropdown-toggle:after {right: inherit; left: 15px;}
+
+.intl-tel-input input {direction: ltr!important;text-align: right!important;padding: 10px 45px 5px 20px!important;}
+.saleLists { border-right:none; border-left:1px solid #E5E5E5;}
+.saleLists:nth-child(4n) {border-left: none;}
+.FilterBox .close-btn {left:0;right:inherit;display: none!important;}
+.filteredLists {float: right!important;margin:0 0 10px 10px;}
+.filteredLists:nth-child(4n) {margin:0 0 10px;}
+.OFF-Badge { direction: ltr!important;}
+.OFF-Badge2 { direction: ltr!important;}
+.iti--allow-dropdown input, .iti--allow-dropdown input[type=text], .iti--allow-dropdown input[type=tel], .iti--separate-dial-code input, .iti--separate-dial-code input[type=text], .iti--separate-dial-code input[type=tel] {padding-left: 6px!important;padding-right: 52px!important;direction: ltr!important;text-align: right!important;}
+.iti--allow-dropdown .iti__flag-container, .iti--separate-dial-code .iti__flag-container {left: auto!important;right: 0!important;}
+.iti__arrow {margin:0 6px 0 0!important;}
+.iti__country-list {text-align:right!important;}
+.iti__flag-box, .iti__country-name {margin-right:inherit!important;margin-left:6px!important;}
+#menu li {float:none!important;}
+.categoryList {float:right!important;}
+
+@media screen and (max-width: 1140px) {
+    .pdet_lft {margin: 0 0 20px 3%;width:42%;}
+    .featuredLists {
+        width: 23%;
+        margin: 0 4px 10px}
+}
+@media screen and (max-width: 1100px) {
+    .cfList a {width: 15%;margin: 0 0 2% 2%;}
+    .cProduct_lft {margin: 0 0 0 2%;}
+}
+
+
+@media screen and (max-width: 992px){
+    .filteredLists { width: 31%;}
+    .cfList a {width: 18.4%; margin: 0 0 2% 2%;}
+    .cfList a:nth-child(5n) {margin: 0 0 2% 0;}
+    .cfList a:nth-child(6n) {margin: 0 0 2% 2%;}
+    .aboutBox .callNow {    width: 100%;float:none!important;}
+    .aboutBox img {float:none!important;}
+    .saleLists:nth-child(4n) {
+        border-left: 1px solid #e5e5e5;border-right: none;
+    }
+    .sProductsBox {
+        border-left: none;border-right: 1px solid #E5E5E5;
+    }
+    .col-fot-total{float:right!important;text-align: right!important;}
+}
+
+@media screen and (max-width: 800px){
+    .cfList a {width: 23.5%; }
+    .cfList a:nth-child(4n) {margin: 0 0 2% 0;}
+    .cfList a:nth-child(5n) {margin: 0 0 2% 2%;}
+    .featuredLists { width: 31%;}
+    .pdet_lft {width:100%; margin:0!important;}
+    .pdet_rit { margin:30px 0 0 0; width: 100%;}
+    .col-fot-total{float:right!important;text-align: right!important;}
+
+}
+@media screen and (max-width: 767px){
+    .cfList a {width: 32%;margin: 0 0 2% 2%!important; }
+    .cfList a:nth-child(3n) {margin: 0 0 2% 0;}
+    .cfList a:nth-child(4n) {margin: 0 0 2% 2%;}
+    .cfList a:nth-child(5n) {margin: 0 0 2% 2%;}
+    .cfitem, .cfitem2 {margin: 0 0 12px;}
+    .FilterBox {padding: 20px 0 0 22px;}
+    .subpagez .itemlistz2 p  { text-align: justify!important;}
+    .slider.slider-horizontal {width: 95%!important;}
+    #menu ul { left:30% !important}
+    .col-fot-total{float:right!important;text-align: right!important;}
+    .cart-item .col-1{right:inherit;left: -5px;}
+    .cart-item .col-5 {padding-right: inherit;padding-left: 30px;}
+    .cart-item .col-2, .cart-item .col-3 {text-align: left!important;}
+}
+
+@media screen and (max-width: 600px){
+    .featuredLists {
+        width: 47%;
+    }
+    .col-fot-total{float:right!important;text-align: right!important;}
+
+
+}
+@media screen and (max-width: 568px){
+    .cart-item .col-3 { max-width: 100%; width:100%;}
+    .cProfile .cart-remove { right:0!important; top:0!important;}
+    .filteredLists { width: 47%;}
+    .BagAdded {margin: 0 0px 15px 0;}
+    .col-fot-total{float:right!important;text-align: right!important;}
+    .cart-item .col-1{right:inherit;}
+
+
+}
+@media screen and (max-width: 480px){
+    .filteredLists { width: 100%;}
+    .cfList a {width: 49%!important; }
+    .cfList a:nth-child(2n) {margin: 0 0 2% 0!important;}
+    .cfList a:nth-child(3n) {margin: 0 0 2% 2%!important;}
+    .cfList a:nth-child(6n) {margin: 0 0 2% 0%!important;}
+
+
+
+
+}
+@media screen and (max-width: 413px){
+    .cfList a {width: 100%!important; margin: 0 0 2%!important; }
+    .featuredLists {
+        width: 100%;
+        margin: 0 0 15px!important;
+        float: left;
+    }
+
+
+
+}
+
+
+
